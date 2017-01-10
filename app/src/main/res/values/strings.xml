@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">20 20 20</string>
+    <string name="ui_okay">Okay</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_error">Error</string>
+    <string name="ui_na">N/A</string>
+    <string name="ui_caution">Caution</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_donate">Donate</string>
+    <string name="action_language" translatable="false">Language</string>
+
+    <string-array name="language_choose" translatable="false">
+        <item>System Default</item>
+        <item>English</item>
+        <item>中文（正體）</item>
+    </string-array>
+    <string-array name="language_choose_values" translatable="false">
+        <item>auto</item>
+        <item>zh</item>
+        <item>en</item>
+    </string-array>
+
+    <!--  -->
+    <string name="share_message">Download \"20 20 20\" to protect your eye with a smart app./n/n
+        https://play.google.com/store/apps/details?id=hibernate.v2.rule202020</string>
+    <string name="share_button">Share App to</string>
+    <string name="share">Share App</string>
+
+    <string name="more_app">All Developer\'s App</string>
+
+    <string name="report">Report</string>
+    <string name="report_title">20 20 20: Report and Feedback</string>
+    <string name="report_subject">Here is my message: \n</string>
+    <string name="report_des">Please report any bugs and feedback via hibernatev2@gmail.com</string>
+
+    <string name="rate_app">Rate app</string>
+    <string name="rate_app_des">Please support the developer by rating this app.</string>
+
+    <!--  -->
+    <string name="start_btn_not_start">Start alert</string>
+    <string name="start_btn_is_start">Stop alert</string>
+    <string name="help_btn">How it works</string>
+    <string name="intro">Every 20 minutes, you should take a break for at least 20 seconds and look at objects that are 20 feet away from you.</string>
+    <!--  -->
+
+    <string name="noti_start">Give your Eyes a Break</string>
+    <string name="noti_title">20 20 20</string>
+    <string name="noti_message">Give your Eyes a Break at: </string>
+    <!--  -->
+
+    <string name="t0_text">Welcome to I am Here!!!\nSwipe right to learn how it works</string>
+    <string name="t1_text">Start the eye rest alert with the button.</string>
+    <string name="t2_text">Then it sets the alert every 20 minutes.</string>
+    <string name="t3_text1">When you receive the alert, you may take at least 20 seconds a break.</string>
+    <string name="t4_2_text1">Before 30 seconds of the alert, you will see the popup button that reminds you.</string>
+    <string name="t5_text1">Start protecting your eye with\n20 20 20</string>
+    <string name="t0_text2">If you get any problem with this app, please contact us via Setting -> Report, thank you.</string>
+
+    <string name="reminder_text1">Your eyes need a rest.</string>
+    <string name="hint_text">Keep at least 8 feet from your phone screen while watching it.\nProtect your eyes from eye strain when at the computer or watching television.\nClose your eye if you feel eye strain.</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Setting</string>
+    <string name="pref_category_more">App Information</string>
+    <string name="pref_category_general">General</string>
+
+    <!-- pref_reminder -->
+    <string name="pref_reminder">Time interval for the break</string>
+    <string name="pref_reminder_list_title_1">1 Minute</string>
+    <string name="pref_reminder_list_title_10">10 Minutes</string>
+    <string name="pref_reminder_list_title_15">15 Minutes</string>
+    <string name="pref_reminder_list_title_20">20 Minutes</string>
+    <string name="pref_reminder_list_title_25">25 Minutes</string>
+    <string name="pref_reminder_list_title_30">30 Minutes</string>
+    <string-array name="pref_reminder_list_titles" translatable="false">
+        <item>@string/pref_reminder_list_title_1</item>
+        <item>@string/pref_reminder_list_title_10</item>
+        <item>@string/pref_reminder_list_title_15</item>
+        <item>@string/pref_reminder_list_title_20</item>
+        <item>@string/pref_reminder_list_title_25</item>
+        <item>@string/pref_reminder_list_title_30</item>
+    </string-array>
+    <string-array name="pref_reminder_list_values" translatable="false">
+        <item>1</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <!-- pref_reminder -->
+
+    <!-- pref_detect -->
+    <string name="pref_detect">How long for the break</string>
+    <string name="pref_detect_list_title_20">20 Seconds</string>
+    <string name="pref_detect_list_title_60">60 Seconds</string>
+    <string-array name="pref_detect_list_titles" translatable="false">
+        <item>@string/pref_detect_list_title_20</item>
+        <item>@string/pref_detect_list_title_60</item>
+    </string-array>
+    <string-array name="pref_detect_list_values" translatable="false">
+        <item>20</item>
+        <item>60</item>
+    </string-array>
+    <!-- pref_detect -->
+</resources>

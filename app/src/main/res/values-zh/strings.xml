@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">20 20 20</string>
+    <string name="ui_okay">確定</string>
+    <string name="ui_cancel">取消</string>
+    <string name="ui_error">錯誤</string>
+    <string name="ui_na">無法剖析</string>
+    <string name="ui_caution">注意</string>
+    <string name="action_settings">設定</string>
+    <string name="action_donate">捐助</string>
+
+    <string name="share">分享此程式</string>
+    <string name="share_button">分享此程式</string>
+    <string name="share_message">我剛試用了「20 20 20」APP，你也快來試試吧！！\n\nhttps://play.google.com/store/apps/details?id=hibernate.v2.rule202020</string>
+
+    <string name="more_app">開發人員其他程式</string>
+
+    <string name="report">回報功能</string>
+    <string name="report_title">20 20 20 APP - 回報錯誤及意見</string>
+    <string name="report_subject">我的訊息︰</string>
+    <string name="report_des">請回報錯誤及意見 - hibernatev2@gmail.com</string>
+
+    <string name="rate_app">評分</string>
+    <string name="rate_app_des">請給開發人員一些支持及評價</string>
+
+    <!--  -->
+    <string name="start_btn_not_start">啟動護眼提醒</string>
+    <string name="start_btn_is_start">取消護眼提醒</string>
+    <string name="intro">使用智能電話每隔 20 分鐘，你的眼睛應該休息至少 20 秒，並觀看至少 20 呎 (6 米)外的東西。</string>
+
+    <string name="noti_start">記得要保護眼睛！！</string>
+    <string name="noti_title">20 20 20</string>
+    <string name="noti_message">下次休息時間為：</string>
+    <!--  -->
+    <string name="t0_text">歡迎使用 20 20 20\n滑動頁面來了解這是怎樣運作的……</string>
+    <string name="t1_text">只要在程式主畫面按下啟動提醒</string>
+    <string name="t2_text">程式便會在每 20 分鐘提醒你該要休息</string>
+    <string name="t3_text1">當提醒畫面出現時，你應該眼睛有至少 20 秒的休息</string>
+    <string name="t4_2_text1">提醒畫面出現前 30 秒會有按鈕出現，可讓你延後休息時間。</string>
+    <string name="t5_text1">現在就開始使用\n「20 20 20」</string>
+    <string name="t0_text2">如你對本程式有任何疑問，歡迎到設定 -> 回報功能告之開發人員，謝謝。</string>
+
+    <!--  -->
+    <string name="reminder_text1">是時候要休息了</string>
+
+    <string name="help_btn">了解如何運作</string>
+    <string name="hint_text">眼睛與螢幕的距離至少為 20 厘米，以避免過於疲勞。\n經常眨眼可減少眼球暴露於空氣中的時間，避免淚液蒸發。\n保持良好的生活習慣，睡眠充足，不熬夜。\n休息時可以看遠處。
+看綠色東西有助舒緩眼睛疲勞。\n除了看遠處，閉上眼睛，靜養片刻也有幫助的。眼睛是你的靈魂之窗，請好好愛惜它們。</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">設定</string>
+    <string name="pref_category_more">其他資訊</string>
+    <string name="pref_category_general">一般</string>
+
+    <!-- pref_reminder -->
+    <string name="pref_reminder">休息提示隔間</string>
+    <string name="pref_reminder_list_title_1">1 分鐘</string>
+    <string name="pref_reminder_list_title_10">10 分鐘</string>
+    <string name="pref_reminder_list_title_15">15 分鐘</string>
+    <string name="pref_reminder_list_title_20">20 分鐘</string>
+    <string name="pref_reminder_list_title_25">25 分鐘</string>
+    <string name="pref_reminder_list_title_30">30 分鐘</string>
+    <!-- pref_reminder -->
+
+    <!-- pref_detect -->
+    <string name="pref_detect">休息時間</string>
+    <string name="pref_detect_list_title_20">20 秒</string>
+    <string name="pref_detect_list_title_60">60 秒</string>
+    <!-- pref_detect -->
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/title_activity_settings">
+
+    <PreferenceCategory android:title="@string/pref_category_general">
+        <ListPreference
+            android:defaultValue="20"
+            android:dialogTitle="@string/pref_reminder"
+            android:entries="@array/pref_reminder_list_titles"
+            android:entryValues="@array/pref_reminder_list_values"
+            android:key="pref_reminder"
+            android:title="@string/pref_reminder"/>
+        <ListPreference
+            android:defaultValue="20"
+            android:dialogTitle="@string/pref_detect"
+            android:entries="@array/pref_detect_list_titles"
+            android:entryValues="@array/pref_detect_list_values"
+            android:key="pref_detect"
+            android:title="@string/pref_detect"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_more">
+        <Preference
+            android:key="pref_rate_app"
+            android:summary="@string/rate_app_des"
+            android:title="@string/rate_app"/>
+        <Preference
+            android:key="pref_report"
+            android:summary="@string/report_des"
+            android:title="@string/report"/>
+        <Preference
+            android:key="pref_more_app"
+            android:title="@string/more_app"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
